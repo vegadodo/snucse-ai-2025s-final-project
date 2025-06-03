@@ -1,0 +1,11 @@
+name: cifar10-experiments
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - tqdm
+    - matplotlib
